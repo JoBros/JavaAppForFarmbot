@@ -4,6 +4,7 @@ import Constants.AktualKoodinates;
 import Constants.DATABASE;
 import Constants.NETWORK;
 import Main.Functions.Koodinates;
+import Main.Logger;
 import Main.Model.Pflanze;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -29,10 +30,13 @@ public class Database {
             Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
         } catch (InstantiationException e) {
             e.printStackTrace();
+            new Logger().logError(e.toString());
         } catch (IllegalAccessException e) {
             e.printStackTrace();
+            new Logger().logError(e.toString());
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
+            new Logger().logError(e.toString());
         }
         //Connect
         try {
@@ -40,6 +44,7 @@ public class Database {
             myConn = DriverManager.getConnection("jdbc:mysql://"+ toTable +"?" + "user=" + user + "&password="+password +"");//DriverManager.getConnection("jdbc:mysql:/" + toTable, user, password);
         } catch (SQLException throwables) {
             throwables.printStackTrace();
+            new Logger().logError(throwables.toString());
         }
     }
     
@@ -63,6 +68,7 @@ public class Database {
             obj = (JSONObject) parser.parse(help.toString());
         } catch (Exception e) {
             e.printStackTrace();
+            new Logger().logError(e.toString());
         }
         String value = obj.get("V").toString();
         String sensor = (String) obj.get("T");
@@ -105,6 +111,7 @@ public class Database {
             return o.toArray();
         }catch(Exception e){
             e.printStackTrace();
+            new Logger().logError(e.toString());
             return null;
         }
     }

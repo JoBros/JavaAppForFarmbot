@@ -1,6 +1,7 @@
 package Main.Functions.Communictaion;
 
 import Constants.NETWORK;
+import Main.Logger;
 
 import java.io.*;
 import java.net.Socket;
@@ -19,22 +20,27 @@ public class toServer {
         if (X_Ray_ComPort == null || !X_Ray_ComPort.isConnected()){
             X_Ray_ComPort = new Socket(NETWORK.X_RAY_IP, NETWORK.X_RAY_PORT);
             System.out.println(X_Ray_ComPort.toString());
+            new Logger().logInfo(X_Ray_ComPort.toString());
         }
         if (W_Ray_ComPort == null || !W_Ray_ComPort.isConnected()){
             W_Ray_ComPort = new Socket(NETWORK.W_RAY_IP, NETWORK.W_RAY_PORT);
             System.out.println(W_Ray_ComPort.toString());
+            new Logger().logInfo(W_Ray_ComPort.toString());
         }
         if (Y_Ray_ComPort == null || !Y_Ray_ComPort.isConnected()){
             Y_Ray_ComPort = new Socket(NETWORK.Y_RAY_IP, NETWORK.Y_RAY_PORT);
             System.out.println(Y_Ray_ComPort.toString());
+            new Logger().logInfo(Y_Ray_ComPort.toString());
         }
         if (H_Ray_ComPort == null || !H_Ray_ComPort.isConnected()){
             H_Ray_ComPort = new Socket(NETWORK.H_RAY_IP, NETWORK.H_RAY_PORT);
             System.out.println(H_Ray_ComPort.toString());
+            new Logger().logInfo(H_Ray_ComPort.toString());
         }
 
         } catch (IOException e) {
             e.printStackTrace();
+            new Logger().logError("Chip nicht Connected: " + e.toString());
         }
     }
     /*
@@ -70,8 +76,5 @@ public class toServer {
     public Socket getW_Ray_ComPort() { return W_Ray_ComPort;   }
     public Socket getY_Ray_ComPort() { return Y_Ray_ComPort;   }
     public Socket getZ_Ray_ComPort() { return Y_Ray_ComPort;   }
-
-    public Socket getH_Ray_ComPort() {
-        return H_Ray_ComPort;
-    }
+    public Socket getH_Ray_ComPort() { return H_Ray_ComPort;   }
 }

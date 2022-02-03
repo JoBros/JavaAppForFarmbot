@@ -1,0 +1,495 @@
+Boot:2022-02-03T15:25:43.118
+Error: 2022-02-03T15:26:05.031 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Boot:2022-02-03T17:10:27.511
+Error: 2022-02-03T17:10:48.700 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:11:09.750 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:11:30.779 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:11:30.781 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:11:51.810 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:12:12.857 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:12:33.904 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:12:54.935 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:12:58.068 Chip nicht Connected: java.net.SocketException: Software caused connection abort: connect
+Error: 2022-02-03T17:12:58.072 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:12:58.074 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:12:58.077 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:12:58.079 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:12:58.081 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:12:58.082 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:13:32.440 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:13:53.623 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:14:14.938 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:14:36.086 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:14:57.456 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:15:18.941 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:15:40.229 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:16:01.366 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:16:22.618 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:16:43.834 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:17:05.018 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:17:26.543 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:17:47.695 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:18:08.811 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:18:29.972 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:18:51.215 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:19:12.925 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:19:34.217 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:19:35.364 Chip nicht Connected: java.net.SocketException: Software caused connection abort: connect
+Error: 2022-02-03T17:19:35.366 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:19:35.367 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:19:49.767 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:19:49.768 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:20:09.767 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:20:09.768 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:20:29.759 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:20:29.760 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:20:49.759 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:20:49.761 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:21:09.759 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:21:09.760 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:21:29.762 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:21:29.763 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:21:49.759 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:21:49.760 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:22:09.756 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:22:09.757 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:22:29.757 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:22:29.758 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:22:49.757 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:22:49.758 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:23:09.762 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:23:09.762 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:23:29.759 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:23:29.760 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:23:49.756 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:23:49.758 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:24:09.756 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:24:09.757 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:24:29.758 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:24:29.759 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:24:49.768 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:24:49.770 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:25:09.768 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:25:09.769 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:25:29.755 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:25:29.756 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:25:49.765 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:25:49.765 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:26:09.960 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:26:09.961 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:26:29.759 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:26:29.761 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:26:49.762 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:26:49.763 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:27:09.765 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:27:09.766 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:27:29.765 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:27:29.767 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:27:49.756 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:27:49.757 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:28:09.766 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:28:09.768 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:28:29.759 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:28:29.761 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:28:49.770 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:28:49.772 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:29:09.758 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:29:09.761 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:29:29.769 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:29:29.771 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:29:49.767 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:29:49.769 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:30:09.768 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:30:09.771 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:30:29.763 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:30:29.765 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:30:49.767 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:30:49.769 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:31:09.762 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:31:09.763 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:31:29.768 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:31:29.769 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:32:11.010 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:32:32.354 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:32:53.613 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:33:14.742 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:33:36.137 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:33:57.378 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:34:18.893 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:34:40.220 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:35:01.436 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:35:22.704 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:35:43.846 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:35:55.600 Chip nicht Connected: java.net.SocketException: Software caused connection abort: connect
+Error: 2022-02-03T17:35:55.602 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:35:55.603 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:36:30.971 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:36:52.192 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:37:13.377 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:37:34.546 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:37:55.801 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:38:17.250 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:38:38.609 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:38:59.754 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:39:20.869 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:39:42.072 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:40:03.461 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:40:24.665 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:40:45.846 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:41:07.089 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:41:28.207 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:41:49.337 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:42:10.549 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:42:31.815 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:42:52.938 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:43:14.068 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:43:35.178 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:43:56.257 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:44:15.472 Chip nicht Connected: java.net.SocketException: Software caused connection abort: connect
+Error: 2022-02-03T17:44:15.473 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:44:15.474 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:44:15.475 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:44:15.476 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:44:50.808 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:45:11.862 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:45:32.903 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:45:53.925 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:46:14.964 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:46:35.995 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:46:57.029 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:47:18.096 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:47:39.130 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:48:00.181 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:48:21.215 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:48:42.256 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:49:03.312 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:49:24.367 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:49:45.418 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:50:06.692 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:50:28.009 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:50:49.068 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:51:10.113 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:51:31.170 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:51:52.212 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:52:13.256 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:52:34.282 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:52:55.309 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:53:16.616 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:53:38.013 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:53:59.616 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:54:16.947 Chip nicht Connected: java.net.SocketException: Software caused connection abort: connect
+Error: 2022-02-03T17:54:16.952 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error: 2022-02-03T17:54:17.019 Chip nicht Connected: java.net.SocketException: Network is unreachable: connect
+Error: 2022-02-03T17:54:38.813 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:55:00.113 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:55:21.805 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:55:43.231 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:56:04.333 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:56:25.467 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:56:46.720 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:57:07.981 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Boot:2022-02-03T17:57:26.914
+Error: 2022-02-03T17:57:50.162 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Error: 2022-02-03T17:58:11.186 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Boot:2022-02-03T18:00:05.486
+Boot:2022-02-03T18:00:18.511
+Error: 2022-02-03T18:00:40.460 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Info: 2022-02-03T18:00:40.464 Sensordaten abrufen.
+Error: 2022-02-03T18:01:01.510 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Info: 2022-02-03T18:01:01.603 Sensordaten abrufen.
+Info: 2022-02-03T18:01:23.084 Sensordaten abrufen.
+Info: 2022-02-03T18:01:44.779 Sensordaten abrufen.
+Info: 2022-02-03T18:02:06.582 Sensordaten abrufen.
+Boot:2022-02-03T18:12:59.955
+Error: 2022-02-03T18:13:21.620 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Info: 2022-02-03T18:13:21.624 Sensordaten abrufen.
+Info: 2022-02-03T18:13:25.229 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:13:41.632 Sensordaten abrufen.
+Info: 2022-02-03T18:13:42.105 Sensordaten erfolgreich abgerufen.
+Error: 2022-02-03T18:13:42.667 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Info: 2022-02-03T18:14:01.636 Sensordaten abrufen.
+Info: 2022-02-03T18:14:01.897 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:14:21.626 Sensordaten abrufen.
+Info: 2022-02-03T18:14:21.993 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:14:41.627 Sensordaten abrufen.
+Info: 2022-02-03T18:14:45.263 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:15:01.628 Sensordaten abrufen.
+Info: 2022-02-03T18:15:03.881 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:15:21.630 Sensordaten abrufen.
+Info: 2022-02-03T18:15:23.698 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:15:41.627 Sensordaten abrufen.
+Info: 2022-02-03T18:15:42.611 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:16:01.631 Sensordaten abrufen.
+Info: 2022-02-03T18:16:01.862 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:16:21.629 Sensordaten abrufen.
+Info: 2022-02-03T18:16:22.207 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:16:41.629 Sensordaten abrufen.
+Info: 2022-02-03T18:16:41.892 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:17:01.630 Sensordaten abrufen.
+Info: 2022-02-03T18:17:01.971 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:17:21.629 Sensordaten abrufen.
+Info: 2022-02-03T18:17:22.031 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:17:41.634 Sensordaten abrufen.
+Info: 2022-02-03T18:17:42.040 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:18:01.633 Sensordaten abrufen.
+Info: 2022-02-03T18:18:02.035 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:18:21.628 Sensordaten abrufen.
+Info: 2022-02-03T18:18:21.927 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:18:41.636 Sensordaten abrufen.
+Info: 2022-02-03T18:18:41.896 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:19:01.630 Sensordaten abrufen.
+Error: 2022-02-03T18:19:01.738 Unexpected token LEFT BRACE({) at position 19.
+Info: 2022-02-03T18:19:21.639 Sensordaten abrufen.
+Info: 2022-02-03T18:19:22.132 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:19:41.626 Sensordaten abrufen.
+Info: 2022-02-03T18:19:41.890 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:20:01.624 Sensordaten abrufen.
+Error: 2022-02-03T18:20:01.687 Unexpected token LEFT BRACE({) at position 19.
+Info: 2022-02-03T18:20:21.632 Sensordaten abrufen.
+Info: 2022-02-03T18:20:22.608 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:20:41.631 Sensordaten abrufen.
+Info: 2022-02-03T18:20:41.920 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:21:01.633 Sensordaten abrufen.
+Info: 2022-02-03T18:21:02.687 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:21:21.624 Sensordaten abrufen.
+Info: 2022-02-03T18:21:23.516 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:21:41.627 Sensordaten abrufen.
+Info: 2022-02-03T18:21:43.753 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:22:01.632 Sensordaten abrufen.
+Error: 2022-02-03T18:22:01.691 Unexpected token LEFT BRACE({) at position 27.
+Info: 2022-02-03T18:22:21.635 Sensordaten abrufen.
+Info: 2022-02-03T18:22:21.911 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:22:41.623 Sensordaten abrufen.
+Info: 2022-02-03T18:22:41.891 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:23:01.630 Sensordaten abrufen.
+Info: 2022-02-03T18:23:01.872 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:23:21.629 Sensordaten abrufen.
+Error: 2022-02-03T18:23:21.693 Unexpected token LEFT BRACE({) at position 19.
+Info: 2022-02-03T18:23:41.631 Sensordaten abrufen.
+Info: 2022-02-03T18:23:42.130 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:24:01.634 Sensordaten abrufen.
+Info: 2022-02-03T18:24:03.513 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:24:21.633 Sensordaten abrufen.
+Info: 2022-02-03T18:24:23.831 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:24:41.638 Sensordaten abrufen.
+Info: 2022-02-03T18:24:41.864 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:25:01.636 Sensordaten abrufen.
+Info: 2022-02-03T18:25:02.527 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:25:21.632 Sensordaten abrufen.
+Info: 2022-02-03T18:25:23.354 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:25:41.636 Sensordaten abrufen.
+Info: 2022-02-03T18:25:44.699 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:26:01.629 Sensordaten abrufen.
+Error: 2022-02-03T18:26:01.707 Unexpected token LEFT BRACE({) at position 19.
+Info: 2022-02-03T18:26:21.630 Sensordaten abrufen.
+Info: 2022-02-03T18:26:22.180 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:26:41.636 Sensordaten abrufen.
+Info: 2022-02-03T18:26:53.838 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:27:01.635 Sensordaten abrufen.
+Info: 2022-02-03T18:27:33.479 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:27:33.479 Sensordaten abrufen.
+Info: 2022-02-03T18:27:56.350 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:27:56.350 Sensordaten abrufen.
+Info: 2022-02-03T18:28:08.574 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:28:08.574 Sensordaten abrufen.
+Info: 2022-02-03T18:28:09.044 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:28:21.632 Sensordaten abrufen.
+Info: 2022-02-03T18:28:44.874 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:28:44.876 Sensordaten abrufen.
+Info: 2022-02-03T18:28:46.484 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:29:01.624 Sensordaten abrufen.
+Info: 2022-02-03T18:29:02.842 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:29:21.626 Sensordaten abrufen.
+Info: 2022-02-03T18:29:28.136 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:29:41.638 Sensordaten abrufen.
+Info: 2022-02-03T18:29:41.993 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:30:01.636 Sensordaten abrufen.
+Info: 2022-02-03T18:30:51.682 Sensordaten abrufen.
+Info: 2022-02-03T18:30:55.711 Sensordaten abrufen.
+Info: 2022-02-03T18:31:01.705 Sensordaten abrufen.
+Info: 2022-02-03T18:31:21.625 Sensordaten abrufen.
+Info: 2022-02-03T18:31:41.625 Sensordaten abrufen.
+Info: 2022-02-03T18:32:01.632 Sensordaten abrufen.
+Info: 2022-02-03T18:32:21.623 Sensordaten abrufen.
+Info: 2022-02-03T18:32:41.630 Sensordaten abrufen.
+Info: 2022-02-03T18:33:01.631 Sensordaten abrufen.
+Info: 2022-02-03T18:33:21.626 Sensordaten abrufen.
+Boot:2022-02-03T18:33:23.490
+Error: 2022-02-03T18:33:45.429 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Info: 2022-02-03T18:33:45.433 Sensordaten abrufen.
+Info: 2022-02-03T18:33:53.569 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:34:05.445 Sensordaten abrufen.
+Info: 2022-02-03T18:34:05.794 Sensordaten erfolgreich abgerufen.
+Error: 2022-02-03T18:34:06.470 Chip nicht Connected: java.net.ConnectException: Connection timed out: connect
+Info: 2022-02-03T18:34:25.434 Sensordaten abrufen.
+Info: 2022-02-03T18:34:25.799 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:34:45.445 Sensordaten abrufen.
+Info: 2022-02-03T18:34:45.834 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:35:05.435 Sensordaten abrufen.
+Info: 2022-02-03T18:35:05.785 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:35:25.447 Sensordaten abrufen.
+Info: 2022-02-03T18:35:25.637 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:35:45.435 Sensordaten abrufen.
+Error: 2022-02-03T18:35:45.640 Unexpected token LEFT BRACE({) at position 19.
+Info: 2022-02-03T18:36:05.445 Sensordaten abrufen.
+Info: 2022-02-03T18:36:13.913 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:36:25.442 Sensordaten abrufen.
+Info: 2022-02-03T18:36:25.636 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:36:45.446 Sensordaten abrufen.
+Info: 2022-02-03T18:36:45.693 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:37:05.441 Sensordaten abrufen.
+Info: 2022-02-03T18:37:05.728 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:37:25.439 Sensordaten abrufen.
+Info: 2022-02-03T18:37:25.719 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:37:45.568 Sensordaten abrufen.
+Error: 2022-02-03T18:37:45.629 Unexpected token LEFT BRACE({) at position 19.
+Info: 2022-02-03T18:38:05.446 Sensordaten abrufen.
+Info: 2022-02-03T18:38:05.769 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:38:25.443 Sensordaten abrufen.
+Info: 2022-02-03T18:38:25.636 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:38:45.434 Sensordaten abrufen.
+Error: 2022-02-03T18:38:45.480 Unexpected token LEFT BRACE({) at position 27.
+Info: 2022-02-03T18:39:05.438 Sensordaten abrufen.
+Info: 2022-02-03T18:39:05.649 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:39:25.434 Sensordaten abrufen.
+Error: 2022-02-03T18:39:25.508 Unexpected token LEFT BRACE({) at position 19.
+Info: 2022-02-03T18:39:45.442 Sensordaten abrufen.
+Info: 2022-02-03T18:39:45.806 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:40:05.431 Sensordaten abrufen.
+Info: 2022-02-03T18:40:05.786 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:40:25.438 Sensordaten abrufen.
+Info: 2022-02-03T18:40:25.720 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:40:45.433 Sensordaten abrufen.
+Error: 2022-02-03T18:40:45.809 Unexpected token LEFT BRACE({) at position 19.
+Info: 2022-02-03T18:41:05.446 Sensordaten abrufen.
+Info: 2022-02-03T18:41:05.667 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:41:25.434 Sensordaten abrufen.
+Info: 2022-02-03T18:41:26.563 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:41:45.445 Sensordaten abrufen.
+Info: 2022-02-03T18:41:47.140 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:42:05.434 Sensordaten abrufen.
+Info: 2022-02-03T18:42:05.687 Sensordaten erfolgreich abgerufen.

@@ -1,10 +1,5 @@
 import Constants.DATABASE;
 import Constants.NETWORK;
-import Main.Functions.Communictaion.Database;
-import Main.Functions.Communictaion.toServer;
-import Main.Functions.Koodinates;
-import Main.Functions.TimerForSensors;
-import Main.Model.Pflanze;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.junit.Test;
@@ -13,7 +8,6 @@ import java.io.*;
 import java.net.Socket;
 import java.sql.*;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.Timer;
 import java.util.TimerTask;
 
