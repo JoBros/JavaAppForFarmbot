@@ -493,3 +493,7 @@ Info: 2022-02-03T18:41:45.445 Sensordaten abrufen.
 Info: 2022-02-03T18:41:47.140 Sensordaten erfolgreich abgerufen.
 Info: 2022-02-03T18:42:05.434 Sensordaten abrufen.
 Info: 2022-02-03T18:42:05.687 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:42:25.434 Sensordaten abrufen.
+Info: 2022-02-03T18:42:25.966 Sensordaten erfolgreich abgerufen.
+Info: 2022-02-03T18:42:45.445 Sensordaten abrufen.
+Info: 2022-02-03T18:42:45.821 Sensordaten erfolgreich abgerufen.
