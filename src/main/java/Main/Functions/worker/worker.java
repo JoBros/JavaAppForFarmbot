@@ -14,6 +14,7 @@ import Main.Functions.Communictaion.toServer;
 import Main.Functions.Koodinates;
 import Main.Functions.Read;
 import Main.Functions.engine;
+import Main.Logger;
 import Main.Model.Tasks;
 
 import java.io.IOException;
@@ -44,28 +45,47 @@ public class worker{
                         if (k.getY() != 0) {
                             try {
                                 System.out.print(k.getY() < 0 ? "A" : "D");
-                                x.schreibeNachricht(x.getY_Ray_ComPort(), k.getX() < 0 ? "A" : "D");
-                                System.out.println("XRichtung" + x.leseNachricht(x.getY_Ray_ComPort()));
+                                x.schreibeNachricht(x.getY_Ray_ComPort(), k.getY() < 0 ? "A" : "D");
+                                String t = null;
+                                while(t == null) {
+                                    t = x.leseNachricht(x.getY_Ray_ComPort());
+                                    System.out.println("YRichtung" + t);
+                                }
+                                new Logger().logError("YRichtung complete");
                             } catch (IOException ioException) {
                               ioException.printStackTrace();
+                              new Logger().logError(ioException.getCause().toString());
+                              new Logger().logError(ioException.getCause().toString());
                            }
                         }
                         if (k.getX() != 0) {
                             try {
                                 x.schreibeNachricht(x.getX_Ray_ComPort(), k.getX() > 0 ? "A" : "D");
-                                System.out.println("YRichtung" + x.leseNachricht(x.getX_Ray_ComPort()));
+                                String t = null;
+                                while(t == null) {
+                                    t = x.leseNachricht(x.getX_Ray_ComPort());
+                                    System.out.println("XRichtung" + t);
+                                }
+                                new Logger().logError("XRichtung complete");
                             } catch (IOException ioException) {
                                 ioException.printStackTrace();
+                                new Logger().logError(ioException.getCause().toString());
+                                new Logger().logError(ioException.getCause().toString());
                             }
                         }
                         if (k.getZ() != 0) {
                             try {
-                                String t =  k.getZ() > 0 ? "Q" : "E";
-                                System.out.println(t);
-                                x.schreibeNachricht(x.getZ_Ray_ComPort(),t);
-                                System.out.println("ZRichtung" + x.leseNachricht(x.getZ_Ray_ComPort()));
+                                x.schreibeNachricht(x.getZ_Ray_ComPort(),k.getZ() > 0 ? "Q" : "E");
+                                String t = null;
+                                while(t == null) {
+                                    t = x.leseNachricht(x.getZ_Ray_ComPort());
+                                    System.out.println("ZRichtung" + t);
+                                }
+                                new Logger().logError("ZRichtung complete");
                             } catch (IOException ioException) {
                                 ioException.printStackTrace();
+                                new Logger().logError(ioException.getCause().toString());
+                                new Logger().logError(ioException.getCause().toString());
                             }
                         }
                         if(!k.getT().equals("")){
@@ -73,32 +93,56 @@ public class worker{
                                 String t = k.getT();
                                 switch (t) {
                                     case "w":
-                                        x.schreibeNachricht(x.getH_Ray_ComPort(), "W");
-                                        x.leseNachricht(x.getH_Ray_ComPort());
+                                        x.schreibeNachricht(x.getW_Ray_ComPort(), "W");
+                                        String message = null;
+                                        while(message == null) {
+                                            message = x.leseNachricht(x.getW_Ray_ComPort());
+                                        }
+                                        System.out.print(message);
+                                        new Logger().logInfo(message);
                                         break;
                                     case "h":
                                         for(int steps = 0; steps < 250; steps++) {
                                             x.schreibeNachricht(x.getZ_Ray_ComPort(), "Q");
-                                            System.out.println("ZRichtung" + x.leseNachricht(x.getZ_Ray_ComPort()));
+                                            String message2 = null;
+                                            while(message2 == null) {
+                                                message2 =  x.leseNachricht(x.getZ_Ray_ComPort());
+                                            }
+                                            System.out.println("ZRichtung" + message2);
                                         }
                                         x.schreibeNachricht(x.getH_Ray_ComPort(), "w");
-                                        x.leseNachricht(x.getH_Ray_ComPort());
+                                        String message2 = null;
+                                        while(message2 == null) {
+                                           try {
+                                               x.leseNachricht(x.getH_Ray_ComPort());
+                                           } catch (Exception w) {
+                                               new Logger().logError("Zeitüberschreitung beim Harken.");
+                                           }
+                                        }
                                         for(int steps = 0; steps < 350; steps++) {
                                             x.schreibeNachricht(x.getZ_Ray_ComPort(), "E");
                                             System.out.println("-ZRichtung" + x.leseNachricht(x.getZ_Ray_ComPort()));
                                         }
                                         break;
+                                    case "P":
+                                        x.schreibeNachricht(x.getW_Ray_ComPort(), "S");
+                                        x.leseNachricht(x.getW_Ray_ComPort());
+                                        break;
                                     default:
                                         break;
                                 }
                             }catch(Exception e){
-
+                                e.printStackTrace();
+                                new Logger().logError(e.getCause().toString());
+                                new Logger().logError(e.getCause().toString());
                             }
                         }
                     } else {
-                        //sleep(10);
+                        sleep(25);
                     }
                 } catch(Exception e){
+                    System.out.println(e.getCause().toString());
+                    new Logger().logError(e.getCause().toString());
                 }
                 }
         };
@@ -125,6 +169,7 @@ public class worker{
                         String h = new Read().ladeDatei(String.valueOf(i) + ".control");
                         String t = "";
                         if (!h.equals("")) {
+                            new Logger().logInfo(h);
                             int x = 0, y = 0, z = 0;
                             if (h.equals("W")) {
                                 x = 1;
@@ -150,9 +195,12 @@ public class worker{
                             if( h.equals("h")){// Harke ausfahren und einfahren
                                 t = "h";
                             }
+                            if( h.equals("P")){
+                                t = "P";
+                            }
                             dotasking(new Koodinates((e.getX() + x), e.getY() + y, e.getZ() + z, t, ""));
                         }
-                        //sleep(20);
+                        sleep(10);
                     }
                 }catch (Exception e){
 
