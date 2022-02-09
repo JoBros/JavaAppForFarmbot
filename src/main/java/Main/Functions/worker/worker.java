@@ -137,12 +137,13 @@ public class worker{
                                 new Logger().logError(e.getCause().toString());
                             }
                         }
-                    } else {
-                        sleep(25);
                     }
                 } catch(Exception e){
-                    System.out.println(e.getCause().toString());
-                    new Logger().logError(e.getCause().toString());
+                    try {
+                        sleep(25);
+                    } catch (InterruptedException ex) {
+                        ex.printStackTrace();
+                    }
                 }
                 }
         };
