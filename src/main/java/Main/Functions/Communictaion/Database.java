@@ -69,6 +69,7 @@ public class Database {
         } catch (Exception e) {
             e.printStackTrace();
             new Logger().logError(e.toString());
+            return;
         }
         String value = obj.get("V").toString();
         String sensor = (String) obj.get("T");

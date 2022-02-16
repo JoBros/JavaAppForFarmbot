@@ -22,10 +22,7 @@ public class TimerForSensors implements Runnable{
     static public class toServer {
 
         static Socket W_Ray_ComPort = null;
-
-
         //Method Areas
-
         public toServer(){
             try {
                 if (W_Ray_ComPort == null || !W_Ray_ComPort.isConnected()){
