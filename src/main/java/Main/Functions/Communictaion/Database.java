@@ -3,6 +3,7 @@ package Main.Functions.Communictaion;
 import Constants.AktualKoodinates;
 import Constants.DATABASE;
 import Constants.NETWORK;
+import Constants.SENSORS;
 import Main.Functions.Koodinates;
 import Main.Logger;
 import Main.Model.Pflanze;
@@ -12,6 +13,7 @@ import org.json.simple.parser.ParseException;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Database {
 
@@ -71,12 +73,25 @@ public class Database {
             new Logger().logError(e.toString());
             return;
         }
+        boolean askValue = false;
         String value = obj.get("V").toString();
         String sensor = (String) obj.get("T");
-        String t = "INSERT INTO Farmbot.SensorDat (sensor, value, created_at) VALUES ('" + sensor + "'," + value + " ,current_timestamp);";
-        //String t = "INSERT INTO SensorDat ('value', 'sensor') VALUES ("+ value +", '"+sensor+"');";
-        Statement myStat = myConn.createStatement();
-        int reSe = myStat.executeUpdate(t);
+        if(Objects.equals(sensor, SENSORS.WASSERSENSOR) && ( Integer.parseInt(value) > SENSORS.WASSERSENSOR_MIN || Integer.parseInt(value) < SENSORS.WASSERSENSOR_MAX )) {
+            //Hier Formatierung der Werte für die Messungen vornehmen.
+            askValue = true;
+        }
+        if(Objects.equals(sensor, SENSORS.TEMPERATURSENSOR) && ( Integer.parseInt(value) > SENSORS.TEMPERATURSENSOR_MIN || Integer.parseInt(value) < SENSORS.TEMPERATURSENSOR_MAX )) {
+            askValue = true;
+        }
+        if(Objects.equals(sensor, SENSORS.LUFTFEUCHTESENSOR) && ( Integer.parseInt(value) > SENSORS.LUFTFEUCHTESENSOR_MIN || Integer.parseInt(value) < SENSORS.LUFTFEUCHTESENSOR_MAX )) {
+            askValue = true;
+        }
+        if(askValue) {
+            String t = "INSERT INTO Farmbot.SensorDat (sensor, value, created_at) VALUES ('" + sensor + "'," + value + " ,current_timestamp);";
+            //String t = "INSERT INTO SensorDat ('value', 'sensor') VALUES ("+ value +", '"+sensor+"');";
+            Statement myStat = myConn.createStatement();
+            int reSe = myStat.executeUpdate(t);
+        }
     }
 
     private String getRay(String t) {
