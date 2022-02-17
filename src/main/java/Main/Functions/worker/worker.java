@@ -57,7 +57,7 @@ public class worker{
                         }
                         if (k.getX() != 0) {
                             try {
-                                for(int i = 0; i < 20; i++) {
+                                for(int i = 0; i < 10; i++) {
                                     x.schreibeNachricht(x.getX_Ray_ComPort(), k.getX() > 0 ? "A" : "D");
                                     String t = x.leseNachricht(x.getX_Ray_ComPort());
                                     System.out.println("XRichtung" + t);
