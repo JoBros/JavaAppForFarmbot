@@ -76,14 +76,14 @@ public class Database {
         boolean askValue = false;
         String value = obj.get("V").toString();
         String sensor = (String) obj.get("T");
-        if(Objects.equals(sensor, SENSORS.WASSERSENSOR) && ( Integer.parseInt(value) > SENSORS.WASSERSENSOR_MIN || Integer.parseInt(value) < SENSORS.WASSERSENSOR_MAX )) {
+        if(Objects.equals(sensor, SENSORS.WASSERSENSOR) &&  Integer.parseInt(value) > SENSORS.WASSERSENSOR_MIN && Integer.parseInt(value) < SENSORS.WASSERSENSOR_MAX ) {
             //Hier Formatierung der Werte für die Messungen vornehmen.
             askValue = true;
         }
-        if(Objects.equals(sensor, SENSORS.TEMPERATURSENSOR) && ( Integer.parseInt(value) > SENSORS.TEMPERATURSENSOR_MIN || Integer.parseInt(value) < SENSORS.TEMPERATURSENSOR_MAX )) {
+        if(Objects.equals(sensor, SENSORS.TEMPERATURSENSOR) &&  Integer.parseInt(value) > SENSORS.TEMPERATURSENSOR_MIN && Integer.parseInt(value) < SENSORS.TEMPERATURSENSOR_MAX ) {
             askValue = true;
         }
-        if(Objects.equals(sensor, SENSORS.LUFTFEUCHTESENSOR) && ( Integer.parseInt(value) > SENSORS.LUFTFEUCHTESENSOR_MIN || Integer.parseInt(value) < SENSORS.LUFTFEUCHTESENSOR_MAX )) {
+        if(Objects.equals(sensor, SENSORS.LUFTFEUCHTESENSOR) &&  Integer.parseInt(value) > SENSORS.LUFTFEUCHTESENSOR_MIN && Integer.parseInt(value) < SENSORS.LUFTFEUCHTESENSOR_MAX ) {
             askValue = true;
         }
         if(askValue) {
