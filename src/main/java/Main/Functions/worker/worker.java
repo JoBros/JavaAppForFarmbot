@@ -46,11 +46,8 @@ public class worker{
                             try {
                                 System.out.print(k.getY() < 0 ? "A" : "D");
                                 x.schreibeNachricht(x.getY_Ray_ComPort(), k.getY() < 0 ? "A" : "D");
-                                String t = null;
-                                while(t == null) {
-                                    t = x.leseNachricht(x.getY_Ray_ComPort());
-                                    System.out.println("YRichtung" + t);
-                                }
+                                String t = x.leseNachricht(x.getY_Ray_ComPort());
+                                System.out.println("YRichtung" + t);
                                 new Logger().logError("YRichtung complete");
                             } catch (IOException ioException) {
                               ioException.printStackTrace();
@@ -60,13 +57,12 @@ public class worker{
                         }
                         if (k.getX() != 0) {
                             try {
-                                x.schreibeNachricht(x.getX_Ray_ComPort(), k.getX() > 0 ? "A" : "D");
-                                String t = null;
-                                while(t == null) {
-                                    t = x.leseNachricht(x.getX_Ray_ComPort());
+                                for(int i = 0; i < 20; i++) {
+                                    x.schreibeNachricht(x.getX_Ray_ComPort(), k.getX() > 0 ? "A" : "D");
+                                    String t = x.leseNachricht(x.getX_Ray_ComPort());
                                     System.out.println("XRichtung" + t);
+                                    new Logger().logError("XRichtung complete");
                                 }
-                                new Logger().logError("XRichtung complete");
                             } catch (IOException ioException) {
                                 ioException.printStackTrace();
                                 new Logger().logError(ioException.getCause().toString());
@@ -76,11 +72,8 @@ public class worker{
                         if (k.getZ() != 0) {
                             try {
                                 x.schreibeNachricht(x.getZ_Ray_ComPort(),k.getZ() > 0 ? "Q" : "E");
-                                String t = null;
-                                while(t == null) {
-                                    t = x.leseNachricht(x.getZ_Ray_ComPort());
-                                    System.out.println("ZRichtung" + t);
-                                }
+                                String t = x.leseNachricht(x.getZ_Ray_ComPort());
+                                System.out.println("ZRichtung" + t);
                                 new Logger().logError("ZRichtung complete");
                             } catch (IOException ioException) {
                                 ioException.printStackTrace();
@@ -95,9 +88,7 @@ public class worker{
                                     case "w":
                                         x.schreibeNachricht(x.getW_Ray_ComPort(), "W");
                                         String message = null;
-                                        while(message == null) {
-                                            message = x.leseNachricht(x.getW_Ray_ComPort());
-                                        }
+                                        message = x.leseNachricht(x.getW_Ray_ComPort());
                                         System.out.print(message);
                                         new Logger().logInfo(message);
                                         break;
@@ -112,13 +103,7 @@ public class worker{
                                         }
                                         x.schreibeNachricht(x.getH_Ray_ComPort(), "w");
                                         String message2 = null;
-                                        while(message2 == null) {
-                                           try {
-                                               x.leseNachricht(x.getH_Ray_ComPort());
-                                           } catch (Exception w) {
-                                               new Logger().logError("Zeitüberschreitung beim Harken.");
-                                           }
-                                        }
+                                        x.leseNachricht(x.getH_Ray_ComPort());
                                         for(int steps = 0; steps < 350; steps++) {
                                             x.schreibeNachricht(x.getZ_Ray_ComPort(), "E");
                                             System.out.println("-ZRichtung" + x.leseNachricht(x.getZ_Ray_ComPort()));

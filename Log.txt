@@ -1,0 +1,146 @@
+Boot:2022-02-17T15:49:08.926
+Info: 2022-02-17T15:49:09.917 Socket[addr=/192.168.188.21,port=9012,localport=60442]
+Info: 2022-02-17T15:49:10.017 Socket[addr=/192.168.188.24,port=9012,localport=60443]
+Info: 2022-02-17T15:49:10.120 Socket[addr=/192.168.188.27,port=9012,localport=60444]
+Info: 2022-02-17T15:49:10.223 Socket[addr=/192.168.188.30,port=9012,localport=60445]
+Info: 2022-02-17T15:49:10.225 Sensordaten abrufen.
+Boot:2022-02-17T15:50:48.649
+Info: 2022-02-17T15:50:48.651 Socket[addr=/192.168.188.21,port=9012,localport=60508]
+Info: 2022-02-17T15:50:48.727 Socket[addr=/192.168.188.24,port=9012,localport=60509]
+Info: 2022-02-17T15:50:48.746 Socket[addr=/192.168.188.27,port=9012,localport=60510]
+Info: 2022-02-17T15:50:48.750 Socket[addr=/192.168.188.30,port=9012,localport=60511]
+Boot:2022-02-17T15:57:53.827
+Info: 2022-02-17T15:57:53.832 Socket[addr=/192.168.188.21,port=9012,localport=60742]
+Info: 2022-02-17T15:57:53.891 Socket[addr=/192.168.188.24,port=9012,localport=60743]
+Info: 2022-02-17T15:57:58.710 Socket[addr=/192.168.188.27,port=9012,localport=60744]
+Info: 2022-02-17T15:57:58.913 Socket[addr=/192.168.188.30,port=9012,localport=60747]
+Boot:2022-02-17T15:58:17.649
+Info: 2022-02-17T15:58:17.653 Socket[addr=/192.168.188.21,port=9012,localport=60771]
+Info: 2022-02-17T15:58:17.748 Socket[addr=/192.168.188.24,port=9012,localport=60772]
+Info: 2022-02-17T15:58:17.853 Socket[addr=/192.168.188.27,port=9012,localport=60773]
+Info: 2022-02-17T15:58:17.867 Socket[addr=/192.168.188.30,port=9012,localport=60774]
+Boot:2022-02-17T15:58:58.199
+Info: 2022-02-17T15:58:58.201 Socket[addr=/192.168.188.21,port=9012,localport=60805]
+Info: 2022-02-17T15:58:58.300 Socket[addr=/192.168.188.24,port=9012,localport=60806]
+Info: 2022-02-17T15:58:58.707 Socket[addr=/192.168.188.27,port=9012,localport=60807]
+Info: 2022-02-17T15:58:58.813 Socket[addr=/192.168.188.30,port=9012,localport=60808]
+Boot:2022-02-17T15:59:11.317
+Info: 2022-02-17T15:59:11.320 Socket[addr=/192.168.188.21,port=9012,localport=60828]
+Info: 2022-02-17T15:59:11.407 Socket[addr=/192.168.188.24,port=9012,localport=60829]
+Info: 2022-02-17T15:59:11.610 Socket[addr=/192.168.188.27,port=9012,localport=60830]
+Info: 2022-02-17T15:59:11.714 Socket[addr=/192.168.188.30,port=9012,localport=60831]
+Boot:2022-02-17T15:59:45.416
+Info: 2022-02-17T15:59:45.417 Socket[addr=/192.168.188.21,port=9012,localport=60860]
+Info: 2022-02-17T15:59:45.506 Socket[addr=/192.168.188.24,port=9012,localport=60861]
+Info: 2022-02-17T15:59:45.609 Socket[addr=/192.168.188.27,port=9012,localport=60862]
+Info: 2022-02-17T15:59:45.710 Socket[addr=/192.168.188.30,port=9012,localport=60863]
+Boot:2022-02-17T15:59:50.729
+Info: 2022-02-17T15:59:50.732 Socket[addr=/192.168.188.21,port=9012,localport=60879]
+Info: 2022-02-17T15:59:50.737 Socket[addr=/192.168.188.24,port=9012,localport=60880]
+Info: 2022-02-17T15:59:50.829 Socket[addr=/192.168.188.27,port=9012,localport=60881]
+Info: 2022-02-17T15:59:50.836 Socket[addr=/192.168.188.30,port=9012,localport=60882]
+Boot:2022-02-17T16:00:02.374
+Info: 2022-02-17T16:00:02.376 Socket[addr=/192.168.188.21,port=9012,localport=60902]
+Info: 2022-02-17T16:00:02.382 Socket[addr=/192.168.188.24,port=9012,localport=60903]
+Info: 2022-02-17T16:00:02.386 Socket[addr=/192.168.188.27,port=9012,localport=60904]
+Info: 2022-02-17T16:00:02.389 Socket[addr=/192.168.188.30,port=9012,localport=60905]
+Boot:2022-02-17T16:00:17.477
+Info: 2022-02-17T16:00:17.482 Socket[addr=/192.168.188.21,port=9012,localport=60926]
+Info: 2022-02-17T16:00:17.556 Socket[addr=/192.168.188.24,port=9012,localport=60927]
+Info: 2022-02-17T16:00:17.658 Socket[addr=/192.168.188.27,port=9012,localport=60928]
+Info: 2022-02-17T16:00:17.761 Socket[addr=/192.168.188.30,port=9012,localport=60929]
+Boot:2022-02-17T16:00:28.024
+Info: 2022-02-17T16:00:28.026 Socket[addr=/192.168.188.21,port=9012,localport=60948]
+Info: 2022-02-17T16:00:28.035 Socket[addr=/192.168.188.24,port=9012,localport=60949]
+Info: 2022-02-17T16:00:28.045 Socket[addr=/192.168.188.27,port=9012,localport=60950]
+Info: 2022-02-17T16:00:28.050 Socket[addr=/192.168.188.30,port=9012,localport=60951]
+Boot:2022-02-17T16:00:35.082
+Info: 2022-02-17T16:00:35.086 Socket[addr=/192.168.188.21,port=9012,localport=60968]
+Info: 2022-02-17T16:00:35.090 Socket[addr=/192.168.188.24,port=9012,localport=60969]
+Info: 2022-02-17T16:00:35.101 Socket[addr=/192.168.188.27,port=9012,localport=60970]
+Info: 2022-02-17T16:00:35.105 Socket[addr=/192.168.188.30,port=9012,localport=60971]
+Boot:2022-02-17T16:00:45.945
+Info: 2022-02-17T16:00:45.948 Socket[addr=/192.168.188.21,port=9012,localport=60989]
+Info: 2022-02-17T16:00:46.025 Socket[addr=/192.168.188.24,port=9012,localport=60990]
+Info: 2022-02-17T16:00:46.127 Socket[addr=/192.168.188.27,port=9012,localport=60991]
+Info: 2022-02-17T16:00:46.228 Socket[addr=/192.168.188.30,port=9012,localport=60993]
+Boot:2022-02-17T16:01:18.601
+Info: 2022-02-17T16:01:18.604 Socket[addr=/192.168.188.21,port=9012,localport=61021]
+Info: 2022-02-17T16:01:18.690 Socket[addr=/192.168.188.24,port=9012,localport=61022]
+Info: 2022-02-17T16:01:18.792 Socket[addr=/192.168.188.27,port=9012,localport=61024]
+Info: 2022-02-17T16:01:18.894 Socket[addr=/192.168.188.30,port=9012,localport=61025]
+Boot:2022-02-17T16:01:29.558
+Info: 2022-02-17T16:01:29.560 Socket[addr=/192.168.188.21,port=9012,localport=61045]
+Info: 2022-02-17T16:01:29.648 Socket[addr=/192.168.188.24,port=9012,localport=61046]
+Info: 2022-02-17T16:01:29.751 Socket[addr=/192.168.188.27,port=9012,localport=61047]
+Info: 2022-02-17T16:01:29.851 Socket[addr=/192.168.188.30,port=9012,localport=61048]
+Boot:2022-02-17T16:02:24.959
+Info: 2022-02-17T16:02:24.963 Socket[addr=/192.168.188.21,port=9012,localport=61088]
+Info: 2022-02-17T16:02:25.048 Socket[addr=/192.168.188.24,port=9012,localport=61089]
+Info: 2022-02-17T16:02:25.054 Socket[addr=/192.168.188.27,port=9012,localport=61090]
+Info: 2022-02-17T16:02:25.058 Socket[addr=/192.168.188.30,port=9012,localport=61091]
+Boot:2022-02-17T16:03:25.686
+Info: 2022-02-17T16:03:25.690 Socket[addr=/192.168.188.21,port=9012,localport=61132]
+Info: 2022-02-17T16:03:25.769 Socket[addr=/192.168.188.24,port=9012,localport=61133]
+Info: 2022-02-17T16:03:25.879 Socket[addr=/192.168.188.27,port=9012,localport=61134]
+Info: 2022-02-17T16:03:25.973 Socket[addr=/192.168.188.30,port=9012,localport=61135]
+Boot:2022-02-17T16:03:40.323
+Info: 2022-02-17T16:03:40.326 Socket[addr=/192.168.188.21,port=9012,localport=61155]
+Info: 2022-02-17T16:03:40.415 Socket[addr=/192.168.188.24,port=9012,localport=61156]
+Info: 2022-02-17T16:03:40.427 Socket[addr=/192.168.188.27,port=9012,localport=61158]
+Info: 2022-02-17T16:03:40.432 Socket[addr=/192.168.188.30,port=9012,localport=61159]
+Boot:2022-02-17T16:09:47.246
+Info: 2022-02-17T16:09:47.249 Socket[addr=/192.168.188.21,port=9012,localport=61345]
+Info: 2022-02-17T16:09:47.324 Socket[addr=/192.168.188.24,port=9012,localport=61346]
+Info: 2022-02-17T16:09:47.514 Socket[addr=/192.168.188.27,port=9012,localport=61347]
+Info: 2022-02-17T16:09:47.723 Socket[addr=/192.168.188.30,port=9012,localport=61348]
+Boot:2022-02-17T16:10:18.458
+Info: 2022-02-17T16:10:18.460 Socket[addr=/192.168.188.21,port=9012,localport=61376]
+Info: 2022-02-17T16:10:18.543 Socket[addr=/192.168.188.24,port=9012,localport=61377]
+Info: 2022-02-17T16:10:18.646 Socket[addr=/192.168.188.27,port=9012,localport=61378]
+Info: 2022-02-17T16:10:18.746 Socket[addr=/192.168.188.30,port=9012,localport=61379]
+Boot:2022-02-17T16:10:46.411
+Info: 2022-02-17T16:10:46.414 Socket[addr=/192.168.188.21,port=9012,localport=61405]
+Info: 2022-02-17T16:10:46.497 Socket[addr=/192.168.188.24,port=9012,localport=61406]
+Info: 2022-02-17T16:10:46.602 Socket[addr=/192.168.188.27,port=9012,localport=61407]
+Info: 2022-02-17T16:10:46.702 Socket[addr=/192.168.188.30,port=9012,localport=61408]
+Boot:2022-02-17T16:11:07.839
+Info: 2022-02-17T16:11:07.841 Socket[addr=/192.168.188.21,port=9012,localport=61432]
+Info: 2022-02-17T16:11:07.900 Socket[addr=/192.168.188.24,port=9012,localport=61433]
+Info: 2022-02-17T16:11:08.001 Socket[addr=/192.168.188.27,port=9012,localport=61434]
+Info: 2022-02-17T16:11:08.009 Socket[addr=/192.168.188.30,port=9012,localport=61435]
+Boot:2022-02-17T16:35:41.992
+Info: 2022-02-17T16:35:41.997 Socket[addr=/192.168.188.21,port=9012,localport=60565]
+Info: 2022-02-17T16:35:42.053 Socket[addr=/192.168.188.24,port=9012,localport=60567]
+Info: 2022-02-17T16:35:42.154 Socket[addr=/192.168.188.27,port=9012,localport=60568]
+Info: 2022-02-17T16:35:42.255 Socket[addr=/192.168.188.30,port=9012,localport=60569]
+Boot:2022-02-17T16:35:49.504
+Info: 2022-02-17T16:35:49.507 Socket[addr=/192.168.188.21,port=9012,localport=60586]
+Info: 2022-02-17T16:35:49.625 Socket[addr=/192.168.188.24,port=9012,localport=60587]
+Info: 2022-02-17T16:35:49.730 Socket[addr=/192.168.188.27,port=9012,localport=60588]
+Info: 2022-02-17T16:35:49.738 Socket[addr=/192.168.188.30,port=9012,localport=60589]
+Boot:2022-02-17T16:35:54.151
+Info: 2022-02-17T16:35:54.153 Socket[addr=/192.168.188.21,port=9012,localport=60605]
+Info: 2022-02-17T16:35:54.233 Socket[addr=/192.168.188.24,port=9012,localport=60606]
+Info: 2022-02-17T16:35:54.336 Socket[addr=/192.168.188.27,port=9012,localport=60607]
+Info: 2022-02-17T16:35:54.437 Socket[addr=/192.168.188.30,port=9012,localport=60608]
+Boot:2022-02-17T16:35:57.745
+Info: 2022-02-17T16:35:57.747 Socket[addr=/192.168.188.21,port=9012,localport=60624]
+Info: 2022-02-17T16:35:57.755 Socket[addr=/192.168.188.24,port=9012,localport=60625]
+Info: 2022-02-17T16:35:57.759 Socket[addr=/192.168.188.27,port=9012,localport=60626]
+Info: 2022-02-17T16:35:57.764 Socket[addr=/192.168.188.30,port=9012,localport=60627]
+Boot:2022-02-17T16:36:03.678
+Info: 2022-02-17T16:36:03.680 Socket[addr=/192.168.188.21,port=9012,localport=60643]
+Info: 2022-02-17T16:36:03.756 Socket[addr=/192.168.188.24,port=9012,localport=60644]
+Info: 2022-02-17T16:36:03.861 Socket[addr=/192.168.188.27,port=9012,localport=60645]
+Info: 2022-02-17T16:36:03.961 Socket[addr=/192.168.188.30,port=9012,localport=60646]
+Boot:2022-02-17T16:40:33.497
+Info: 2022-02-17T16:40:33.500 Socket[addr=/192.168.188.21,port=9012,localport=60795]
+Info: 2022-02-17T16:40:33.505 Socket[addr=/192.168.188.24,port=9012,localport=60796]
+Info: 2022-02-17T16:40:33.515 Socket[addr=/192.168.188.27,port=9012,localport=60797]
+Info: 2022-02-17T16:40:33.521 Socket[addr=/192.168.188.30,port=9012,localport=60798]
+Boot:2022-02-17T16:40:58.585
+Info: 2022-02-17T16:40:58.588 Socket[addr=/192.168.188.21,port=9012,localport=60828]
+Info: 2022-02-17T16:40:58.669 Socket[addr=/192.168.188.24,port=9012,localport=60829]
+Info: 2022-02-17T16:40:58.770 Socket[addr=/192.168.188.27,port=9012,localport=60830]
+Info: 2022-02-17T16:40:58.873 Socket[addr=/192.168.188.30,port=9012,localport=60831]

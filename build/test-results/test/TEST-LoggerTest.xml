@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LoggerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-03T13:09:44" hostname="0279W10P" time="0.071">
-  <properties/>
-  <testcase name="loggertest" classname="LoggerTest" time="0.071"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

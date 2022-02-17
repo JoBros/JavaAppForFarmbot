@@ -41,12 +41,11 @@ public class MotorTestVersuchsreiheEins {
 
         t = new toServer();
         try {
-            for (int i = 0; i < 6; i++){
+            for (int i = 0; i < 1000; i++){
                 t.schreibeNachricht(t.getX_Ray_ComPort(), "A");
                 System.out.print(t.leseNachricht(t.getX_Ray_ComPort()));
-                sleep(300);
             }
-        } catch (IOException | InterruptedException ioException) {
+        } catch (IOException ioException) {
             ioException.printStackTrace();
         }
     }
