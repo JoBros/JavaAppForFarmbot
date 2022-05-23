@@ -1,6 +1,6 @@
 package Main.Functions.Communictaion;
 
-import Constants.AktualKoodinates;
+
 import Constants.DATABASE;
 import Constants.NETWORK;
 import Constants.SENSORS;

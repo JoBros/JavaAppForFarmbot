@@ -1,16 +1,21 @@
 plugins {
     id 'java'
 }
+//Informationen
 apply plugin: 'java'
 group 'ChristianKuellmerUJonasKallweidt'
 version '1.0-SNAPSHOT'
 
+//JavaCompability
 sourceCompatibility = 1.8
 
+//Repositoryquelle
 repositories {
     mavenCentral()
 }
 
+
+//Um die JarDatei zu builden
 task BuildJar(type: Jar) {
     manifest {
         attributes(
@@ -31,17 +36,18 @@ task BuildJar(type: Jar) {
 
 }
 
-
+//Externe Quellen
 dependencies {
     testCompile "junit:junit:4.11"
 
 // https://mvnrepository.com/artifact/mysql/mysql-connector-java
     compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.14'
-
+//genutzt in Klasse DATABASE
 
 
 // https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple
     compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
+//genutzt zur JSON Aufarbeitung
 
 }
 
